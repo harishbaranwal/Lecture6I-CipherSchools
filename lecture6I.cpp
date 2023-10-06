@@ -1,8 +1,11 @@
-#include <iostream>
-#include <cstdio>
+#include<iostream>
+
 using namespace std;
 
-int main() {
-    cout <<"Hello, World!";
-    return 0;
+int main(){
+	int i;
+	for(i=1;i<=100;i++){
+		cout<<i<<" ";
+	}
+	return 0;
 }
